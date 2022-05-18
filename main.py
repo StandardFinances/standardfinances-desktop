@@ -36,7 +36,8 @@ layout.addWidget(qbtn)
 
 # Close the application when the button is pressed
 # Here I am using slots & signals, which I will demonstrate later in this tutorial
-qbtn.clicked.connect(lambda: makeRequest(layout, line_edit.text()))
+qbtn.clicked.connect(lambda: makeRequest(layout, line_edit.text())) 
+#ошибка(39)?
 
 # Create a QPushButton object with a caption on it
 qbtn = QPushButton('Далее')
